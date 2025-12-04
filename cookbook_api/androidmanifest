@@ -19,33 +19,33 @@
         android:usesCleartextTraffic="true">
 
 
-    <activity
-        android:name=".AboutUs"
-        android:exported="false" />
-    <activity
-        android:name=".MyRecipes"
-        android:exported="false" />
-    <activity
-        android:name=".Profile"
-        android:exported="false" />
-    <activity
-        android:name=".Uploadrecipe"
-        android:exported="false" />
-    <activity
-        android:name=".userpage"
-        android:exported="false" />
-    <activity
-        android:name=".Signup"
-        android:exported="false" />
-    <activity
-        android:name=".MainActivity"
-        android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".MyRecipes"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Uploadrecipe"
+            android:exported="false" />
+        <activity
+            android:name=".userpage"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
-</application>
+    </application>
 
-    </manifest>
+</manifest>
