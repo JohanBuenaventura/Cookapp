@@ -1,4 +1,4 @@
-CREATE DATABASE cookbook_db;
+CREATE DATABASE cookbookapp_db;
 USE cookbook_db;
 
 CREATE TABLE users (
@@ -34,3 +34,4 @@ CREATE TABLE ratings (
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
   FOREIGN KEY (recipe_id) REFERENCES recipes(id) ON DELETE CASCADE
 );
+
